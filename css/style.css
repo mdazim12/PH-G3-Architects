@@ -3,4 +3,40 @@
 
 *{
     font-family: "Work Sans", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Header CSS*/
+
+.header{
+    background-color: rgba(255, 144, 14, 0.1);
+    padding: 30px 0px;
+}
+.brand a{
+    text-decoration: none;
+    color: rgb(19, 19, 19);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+    align-items: center;
+}
+.main_menu{
+    display: flex;
+}
+.nav_item{
+    list-style: none;
+    padding: 0px 15px;
+}
+.nav_item{
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+    font-size: 18px;
+    font-weight: 500;
+}
+.nav_item:hover{
+    color: rgb(255, 144, 14);
 }
