@@ -1,10 +1,11 @@
 
 @media  screen and (max-width: 576px) {
-    .navbar{
+    .navbar, .main_menu{
         flex-direction: column;
     }
     .banner_content{
         width: 85%;
     }
+    
 
   }

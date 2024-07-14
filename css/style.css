@@ -7,6 +7,11 @@
     padding: 0px;
 }
 
+main{
+    width: 85%;
+    margin: 0 auto;
+}
+
 
 
 /*Header CSS*/
@@ -77,4 +82,36 @@
 }
 .banner_img{
     max-width: 85%;
+}
+
+/*Team CSS*/
+
+.team_section{
+    margin: 50px 0px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.team_iamges{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.team_contennt{
+    width: 25%;
+}
+.team_title{
+    font-size: 2.5rem;
+
+}
+.title_gray{
+    color: rgb(114, 114, 114);
+}
+.title_feature{
+    color: rgb(255, 144, 14);
+}
+.team_des{
+    font-size: 1rem;
+    color: rgb(114, 114, 114);
+    line-height: 26px;
 }
