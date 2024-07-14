@@ -7,6 +7,8 @@
     padding: 0px;
 }
 
+
+
 /*Header CSS*/
 
 .header{
@@ -16,6 +18,7 @@
 .brand a{
     text-decoration: none;
     color: rgb(19, 19, 19);
+    font-weight: 700;
 }
 .navbar{
     display: flex;
@@ -39,4 +42,39 @@
 }
 .nav_item:hover{
     color: rgb(255, 144, 14);
+}
+
+/*banner css*/
+.banner{
+    text-align: center;
+    padding: 100px 0px;
+}
+.banner_content{
+    width: 40%;
+    margin: auto;
+}
+.banner_title{
+    font-size: 50px;
+    font-weight: 700;
+    margin: 10px 0px;
+    color: rgb(19, 19, 19);
+}
+.banner_des{
+    font-size: 16px;
+    color: rgb(114, 114, 114);
+    line-height: 26px;
+    margin: 10px 0px;
+}
+.btn{
+    background-color: rgb(255, 144, 14);
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 20px 25px;
+    border: none;
+    margin: 15px 0px;
+}
+.banner_img{
+    max-width: 85%;
 }
