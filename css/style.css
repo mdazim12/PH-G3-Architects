@@ -115,3 +115,34 @@ main{
     color: rgb(114, 114, 114);
     line-height: 26px;
 }
+
+.fact_all_box{
+    margin: 50px 0px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.fact_box_one{
+    border: 1px solid rgb(255, 144, 14);
+    border-radius: 8px;
+    padding: 30px;
+    width: 180px;
+    height: 180px;
+}
+.fact_box_one{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.fact_iten_title{
+    font-size: 2.5rem;
+    color: rgb(66, 66, 66);
+    margin: 10px 0px;
+}
+.fact_item_des{
+    font-size: 1rem;
+    color: rgb(114, 114, 114);
+    margin: 5px 0px;
+}
