@@ -30,6 +30,13 @@
         padding:15px 0px;
         margin: 0 auto;
     }
+    .archi_btn{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .feature_section{
+        grid-template-columns: repeat(1,1fr);
+    }
 
 
 
@@ -63,6 +70,13 @@
     .sponsor_img img{
         padding:15px 0px;
         margin: 0 auto;
+    }
+    .archi_btn{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .feature_section{
+        grid-template-columns: repeat(1,1fr);
     }
 }
 
