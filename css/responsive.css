@@ -22,6 +22,14 @@
     .fact_box_one{
         margin: 0 auto;
     }
+    .sponsor_img{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .sponsor_img img{
+        padding:15px 0px;
+        margin: 0 auto;
+    }
 
 
 
@@ -45,6 +53,15 @@
         grid-template-columns: repeat(2,1fr);
     }
     .fact_box_one{
+        margin: 0 auto;
+    }
+    .sponsor_img{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+    .sponsor_img img{
+        padding:15px 0px;
         margin: 0 auto;
     }
 }

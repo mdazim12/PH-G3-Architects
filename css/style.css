@@ -146,3 +146,22 @@ main{
     color: rgb(114, 114, 114);
     margin: 5px 0px;
 }
+
+/*sponsor section*/
+.sponsor{
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.sponsor_img{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 50px;
+}
+
+.sponsor_img img{
+    filter: grayscale(100);
+}
+.sponsor_img img:hover{
+    filter: grayscale(0);
+}
